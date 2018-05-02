@@ -24,11 +24,12 @@ header, main, footer {
     max-width: 1200px;
 }
 
-header, footer, footer a {
+header, footer a {
     text-align: center;
-    background: linear-gradient(white, #F45505, #F45505, white);
+    background: linear-gradient(white, #F45505, #F45505);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     color: whitesmoke;
-    border-radius: 50px;
 }
 
 header img {
@@ -39,4 +40,9 @@ header img {
 
 footer {
     font-size: .75rem;
+    text-align: center;
+    background: linear-gradient(#F45505, #F45505, white);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: whitesmoke;
 }
