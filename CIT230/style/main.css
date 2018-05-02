@@ -5,11 +5,12 @@ body {
     line-height: 32px;
     font-family: sans-serif;
     color: gray;
+    background-color: lightblue;
 }
 
 h1 {
     font-size: 2.0rem;
-    color: lightyellow;
+    color: white;
 }
 
 h2 {
@@ -24,12 +25,14 @@ header, main, footer {
     max-width: 1200px;
 }
 
-header, footer a {
+header{
     text-align: center;
-    background: linear-gradient(white, #F45505, #F45505);
+    background: linear-gradient(lightblue, #F45505, #F45505);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     color: whitesmoke;
+    height: 75px;
+    vertical-align: text-bottom;
 }
 
 header img {
@@ -38,11 +41,12 @@ header img {
     float: right;
 }
 
-footer {
+footer, footer a {
     font-size: .75rem;
     text-align: center;
-    background: linear-gradient(#F45505, #F45505, white);
+    background: linear-gradient(#F45505, #F45505, lightblue);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     color: whitesmoke;
+    height: 50px;
 }
