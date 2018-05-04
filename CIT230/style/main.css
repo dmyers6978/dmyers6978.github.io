@@ -28,11 +28,11 @@ main{
 }
 
 header{
-    text-align: center;
     background-color: #79CAAF;
     color: #665D5B;
     height: 200px;
     vertical-align: text-bottom;
+    text-indent: 25%;
 }
 
 header img {
