@@ -1,0 +1,62 @@
+* { margin: 0; box-sizing: border-box; }
+
+body {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: sans-serif;
+    color: #665D5B;
+    background-color: #DDE9B3;
+}
+
+header{
+    width: 100%;
+    height: 250px;
+    background-image: URL(/CIT230/images/pano.jpg);
+    background-color: #87A861;
+}
+
+h1{
+    text-indent: 200px;
+    font-size: 3.0rem;
+    padding-top: 130px;
+    color: white
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #87A861;
+    width: 100%;
+    text-align: center;
+}
+
+main{
+    padding: .5rem;
+    max-width: 1750px;
+    margin: .5rem auto;
+}
+
+h2{
+    background-color: #B0B6FF;
+    font-size: 1.25rem;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+a{
+    color: #665D5B;
+    padding-left: 25px;
+}
+
+p:hover{
+    background-color: #87A861;
+    width: 250px;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+p{
+    text-align: left;
+    width: 250px;
+}
