@@ -53,3 +53,14 @@ footer{
     position: absolute;
     bottom: 0;
 }
+li:hover{
+    background-color: #FF7D60;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+ul{
+    max-width: 250px;
+}
