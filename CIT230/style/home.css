@@ -49,14 +49,14 @@ a{
     padding-left: 25px;
 }
 
-p:hover{
+.style1:hover{
     background-color: #87A861;
     width: 250px;
     border-radius: 15px;
     padding-left: 15px;
 }
 
-p{
+.style1{
     text-align: left;
     width: 250px;
 }
