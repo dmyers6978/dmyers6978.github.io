@@ -1,0 +1,36 @@
+* { margin: 0; box-sizing: border-box; }
+
+nav{
+    text-align: center;
+    height: 25px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: skyblue;
+    opacity: .8;
+
+}
+
+.nav{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding-left: 3%;
+    padding-right:3%;
+    height: 25px;
+    vertical-align:text-bottom;
+}
+
+.nav:hover{
+    background-color: blue;
+    color: white;
+    opacity: 1.0;
+    height: 25px;
+    padding-bottom: 8px;
+}
+
+body{
+    background: linear-gradient(rgba(220, 220, 220, .6), rgba(220, 220, 220, .6)),
+        url(/clayonthetrail.github.io/youtube/images/background.JPG) no-repeat fixed;
+    background-size: cover;
+}
