@@ -31,6 +31,32 @@ nav{
 
 body{
     background: linear-gradient(rgba(220, 220, 220, .6), rgba(220, 220, 220, .6)),
-        url(/clayonthetrail.github.io/youtube/images/background.JPG) no-repeat fixed;
+        url(/dmyers6978.github.io/CIT230/lesson-4/images/background.JPG) no-repeat fixed;
     background-size: cover;
+}
+
+h1{
+    font-size: 3.0rem;
+    text-align: left;
+    display: inline-block;
+}
+
+.subheading{
+    position:relative;
+    left: 155px;
+    font-size: 1.0rem;
+}
+
+#logo{
+    width: 150px;
+}
+
+header{
+    padding-top: 25px;
+}
+
+#current-page{
+    background-color: blue;
+    padding-bottom: 8px;
+    color: white;
 }
