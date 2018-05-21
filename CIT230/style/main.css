@@ -55,14 +55,15 @@ footer{
 }
 li:hover{
     background-color: #FF7D60;
-    width: 200px;
+    width: 300px;
     border-radius: 10px;
     color: white;
 
 }
 
 ul{
-    max-width: 250px;
+    max-width: 300px;
     color: #665D5B;
-    text-align: center;
+    text-align: left;
+    text-indent: 10px;
 }
