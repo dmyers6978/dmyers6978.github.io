@@ -10,9 +10,8 @@ body {
 
 header{
     height: 250px;
-    background-image: URL(/CIT230/images/pano.jpg);
+    background-image: URL(/dmyers6978.github.io/CIT230/images/pano.jpg);
     background-size: cover;
-    background-color: #87A861;
 }
 
 h1{
