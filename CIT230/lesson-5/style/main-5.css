@@ -1,7 +1,4 @@
-/* Delete these CSS comments after reading. */
-/* This main css file contains the default rules and is geared toward the small/phone view */
-
-* { box-sizing: border-box; margin: 0 auto;}  /* This wildcard applies to all elements ensuring a box layout model */
+* { box-sizing: border-box; margin: 0 auto;}
 
 body {
     font-size: 16px;
@@ -10,14 +7,13 @@ body {
     background-size: cover;
 }
 
-header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-    max-width: 1000px; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+header, nav, main, footer {
+    max-width: 1000px;
 }
 
 header {
     background: rgba(128, 128, 128, .5);
-    display: flex;
-    flex: wrap;
+    display: grid;
 }
 
 header .subheading {
@@ -91,7 +87,7 @@ section .forecast{
 }
 
 #sunny{
-    width: 100px;
+    max-width: 100px;
     grid-column-start: 2;
     grid-column-end:2;
     grid-row-start: 1;
@@ -129,6 +125,7 @@ article{
 }
 .weather-summary{
     display: inline-flex;
+    flex-wrap: wrap;
     font-size: 1.5rem;
     width: 100%;
     justify-content: space-between;
@@ -143,6 +140,7 @@ h3{
 
 .current{
     display:grid;
+    width: 300px;
 }
 
 #current{
@@ -150,4 +148,14 @@ h3{
     grid-column-end: 1;
     grid-row-start: 2;
     grid-row-end: 2;
+}
+
+.conditions{
+    width:300px;
+    text-align: center;
+}
+
+.highlow{
+    width: 300px;
+    text-align: center;
 }
