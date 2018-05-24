@@ -6,7 +6,7 @@
         display:none;
     }
 
-    section .forecast{
+    section.forecast{
         display: contents;
     }
 
