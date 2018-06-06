@@ -75,62 +75,13 @@ nav ul li:hover {
 
 .responsive li {
     margin: 5px 0 0 0;
-    display: flex;
+    display: block;
     text-align: center;
 }
 
 nav a.icon {
     text-decoration: none;
     color: black;
-}
-
-main {
-}
-
-main h2 {
-    font-size: 3.0rem;
-    text-align: center;
-    padding: 10px 0 0 0;
-}
-main figure {
-    margin: 0 0 .2rem 2%;
-    width: 96%;
-}
-
-main figure img {
-    width: 100%;
-}
-
-footer {
-    text-align: center;
-}
-
-#sunny {
-    max-width: 100px;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    margin: 0 0 0 40px;
-}
-
-article {
-    display: grid;
-}
-
-.town-article {
-    font-size: 1.25rem;
-    vertical-align: text-top;
-    min-height: 200px;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 1;
-}
-main article #record {
-    max-width: 200px;
-    grid-column-start: 2;
-    grid-column-end: 2;
 }
 
 .contact {
@@ -142,47 +93,28 @@ main article #record {
     background: rgb(135, 168, 97);
     padding: 5px 0 5px 0;
 }
-.weather-summary {
-    display: inline-flex;
-    flex-wrap: wrap;
-    font-size: 1.5rem;
-    width: 100%;
-    justify-content: space-between;
-}
 
-h3 {
-    font-size: 1.5rem;
+footer {
     text-align: center;
-    background: rgba(135, 168, 97, .8);
-    margin: 15px 0 15px 0;
 }
 
-.current {
+section#container{
     display: grid;
-    width: 300px;
+    grid-template-columns: 1;
+    grid-row-gap: 50px;
+    margin: 50px 0 50px 0;
 }
 
-#current {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 2;
-    grid-row-end: 2;
+.weather-img{
+    max-width: 300px;
+    border-radius: 10px;
 }
 
-.conditions {
-    width:300px;
-    text-align: center;
+.weather-img:hover{
+    box-shadow: 10px 10px 20px;
 }
 
-.highlow {
-    width: 300px;
-    text-align: center;
-}
-
-section.forecast {
-    display: none;
-}
-
-#trees{
-    margin: 0 auto;
+figcaption{
+    margin: 10px 0 5px 0;
+    text-align: left;
 }

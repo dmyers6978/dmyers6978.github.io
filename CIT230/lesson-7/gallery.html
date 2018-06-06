@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/gallery-s.css">
+    <link rel="stylesheet" href="style/gallery-m.css">
+    <link rel="stylesheet" href="style/gallery-l.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="/dmyers6978.github.io/CIT230/lesson-4/images/logo.png" alt="logo">
+        <h1>Mountain Weather</h1>
+        <h1 class="subheading">Keeping your adventure safe</h1>
+    </header>
+  <nav>
+      <button class="icon" onclick="myFunction()">&#9776;</button>
+      <ul class="topnav" id="topnav">
+          <li><a href="#">Home</a></li>
+          <li><a href="franklin-7.html">Franklin</a></li>
+          <li><a href="#">Greenville</a></li>
+          <li><a href="#">Springfield</a></li>
+          <li><a href="#">Storm Center</a></li>
+          <li><a href="#" id="active">Gallery</a></li>
+      </ul>
+  </nav>
+   <main>
+       <section id="container">
+          <figure>
+              <img src="images/cloudy.jpg" alt="cloudy" class="weather-img">
+              <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dui vestibulum, pellentesque arcu non, condimentum libero. Morbi blandit leo.</figcaption>
+           </figure>
+           <figure>
+               <img src="images/rain.jpg" alt="rain" class="weather-img">
+               <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dui vestibulum, pellentesque arcu non, condimentum libero. Morbi blandit leo.</figcaption>
+           </figure>
+           <figure>
+               <img src="images/snowy.jpg" alt="snowy" class="weather-img">
+               <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dui vestibulum, pellentesque arcu non, condimentum libero. Morbi blandit leo.</figcaption>
+           </figure>
+           <figure>
+               <img src="images/stormy.jpg" alt="stormy" class="weather-img">
+               <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dui vestibulum, pellentesque arcu non, condimentum libero. Morbi blandit leo.</figcaption>
+           </figure>
+           <figure>
+               <img src="images/sunshine.jpg" alt="sunshne" class="weather-img">
+               <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dui vestibulum, pellentesque arcu non, condimentum libero. Morbi blandit leo.</figcaption>
+           </figure>
+           <figure>
+               <img src="images/windy.jpg" alt="windy" class="weather-img">
+               <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dui vestibulum, pellentesque arcu non, condimentum libero. Morbi blandit leo.</figcaption>
+           </figure>
+       </section>
+   </main>
+    <footer>
+        <section class="contact">
+            <p>Contact information placeholder</p>
+            <p>999.999.9999</p>
+            <p>123 Main St. Anytown, US 99999</p>
+            <p>Google Map</p>
+        </section>
+        <section class="footer-bar">&copy; 2018 | All Rights Reserved | Mountain Weather | <span id="currentdate"></span>
+        </section>
+    </footer>
+
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+</body>
+</html>
