@@ -1,0 +1,24 @@
+@media only screen and (min-width: 600px) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+
+    .topnav li{
+        display: inline-block;
+    }
+    nav button {
+        display:none;
+    }
+
+    section.forecast{
+        display: block;
+    }
+
+    th{
+        padding: 0 10px 0 10px;
+    }
+
+    td{
+        padding: 10px;
+        font-weight: bold;
+    }
+}

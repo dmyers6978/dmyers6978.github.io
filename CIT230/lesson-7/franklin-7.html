@@ -6,9 +6,9 @@
     <title>Franklin</title>
     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
     <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/main-6.css">
-    <link rel="stylesheet" href="style/medium-6.css">
-    <link rel="stylesheet" href="style/large-6.css">
+    <link rel="stylesheet" href="style/main-7.css">
+    <link rel="stylesheet" href="style/medium-7.css">
+    <link rel="stylesheet" href="style/large-7.css">
     </head>
     <body>
         <header>
@@ -43,11 +43,13 @@
                 </div>
                 <div class="current">
                     <p id="current">Sunny</p>
+                    <p><span id="temp">45</span>&deg;</p>
                     <img src="images/sunny.jpg" alt="sunny" id="sunny">
                 </div>
                 <div class="conditions">
                     <p>Precipitation: 95%</p>
-                    <p>Wind Speed: 80mph</p>
+                    <p>Windspeed: <span id="speed">50</span> mph</p>
+                    <p>Windchill: <span id="windchill"></span>&deg;</p>
                 </div>
             </section>
             <section class="forecast">
@@ -103,5 +105,6 @@
         </footer>
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/currentdate.js"></script>
+        <script src="scripts/windchill.js"></script>
     </body>
 </html>
