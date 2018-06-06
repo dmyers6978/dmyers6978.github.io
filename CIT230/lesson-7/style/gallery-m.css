@@ -9,7 +9,8 @@
     }
 
     section#container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 300px 300px;
+        justify-content: space-around;
     }
 
 }
