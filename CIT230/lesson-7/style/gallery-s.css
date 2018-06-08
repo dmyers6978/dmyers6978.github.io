@@ -112,16 +112,6 @@ section#container{
     border-radius: 10px;
 }
 
-/*
-.weather-img:hover{
-    box-shadow: 10px 10px 20px;
-}
-
-figcaption:hover{
-    box-shadow: 10px 10px 20px;
-}
-*/
-
 figure:hover{
     box-shadow: 10px 10px 20px;
 }
