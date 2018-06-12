@@ -1,0 +1,36 @@
+table{
+    border-collapse: collapse;
+    box-shadow: 10px 10px 20px #7197ae;
+}
+
+th, td, tr{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: #e7f0ed;
+}
+
+tr:nth-child(odd){
+    background-color: #e7ffed;
+}
+
+tr:nth-child(1){
+    background-color: #7fb9c2;
+}
+
+#dark{
+    background-color: #628ca6;
+    color: white;
+}
+
+tr.firstrow{
+    background-color: #628ca6;
+    color: white;
+}
+
+#black{
+    text-align: center;
+}
+
