@@ -50,8 +50,6 @@ footer{
     color: #665D5B;
     height: 50px;
     width: 100%;
-    position: absolute;
-    bottom: 0;
 }
 li:hover{
     background-color: #FF7D60;
