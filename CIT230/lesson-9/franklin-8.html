@@ -43,13 +43,13 @@
                 </div>
                 <div class="current">
                     <p id="current">Sunny</p>
-                    <p><span id="temp">45</span>&deg;</p>
+                    <p><span id="temp"></span>&deg; F</p>
                     <img src="images/sunny.jpg" alt="sunny" id="sunny">
                 </div>
                 <div class="conditions">
                     <p>Precipitation: 95%</p>
-                    <p>Windspeed: <span id="speed">50</span> mph</p>
-                    <p>Windchill: <span id="windchill"></span>&deg;</p>
+                    <p>Windspeed: <span id="speed"></span> mph</p>
+                    <p>Windchill: <span id="windchill">0</span>&deg; F</p>
                 </div>
             </section>
             <section class="forecast">
@@ -85,12 +85,8 @@
                     </tbody>
                 </table>
             </section>
-            <h3>Franklin Breaks Record</h3>
-            <article>
-                <img src="images/record.png" alt="record" id="record">
-                <p class="town-article">
-                town article
-                </p>
+            <h3>City Happenings</h3>
+            <article id="town_article">
             </article>
         </main>
         <footer>
@@ -106,5 +102,6 @@
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/currentdate.js"></script>
         <script src="scripts/windchill.js"></script>
+        <script src="scripts/franklin.js"></script>
     </body>
 </html>

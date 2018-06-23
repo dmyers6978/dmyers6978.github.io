@@ -115,22 +115,12 @@ footer {
 }
 
 article {
-    display: grid;
+    margin:20px auto 20px auto;
+    text-align: center;
 }
 
 .town-article {
     font-size: 1.25rem;
-    vertical-align: text-top;
-    min-height: 200px;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 1;
-}
-main article #record {
-    max-width: 200px;
-    grid-column-start: 2;
-    grid-column-end: 2;
 }
 
 .contact {

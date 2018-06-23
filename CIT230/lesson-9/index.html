@@ -12,15 +12,21 @@
     </head>
     <body>
         <header>
-            <img src="/dmyers6978.github.io/CIT230/lesson-4/images/logo.png" alt="logo">
-            <h1>Mountain Weather</h1>
-            <h1 class="subheading">Keeping your adventure safe</h1>
+           <table>
+               <tr>
+                   <td id="image" rowspan="2"><img src="/dmyers6978.github.io/CIT230/lesson-4/images/logo.png" alt="logo"></td>
+                   <td id="heading"><h1 colspan="2">Mountain Weather</h1></td>
+               </tr>
+               <tr>
+                   <td id="subheading"><h1 class="subheading" colspan="2">Keeping your adventure safe</h1></td>
+               </tr>
+           </table>
         </header>
         <nav>
             <button class="icon" onclick="myFunction()">&#9776;</button>
             <ul class="topnav" id="topnav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#" id="active">Franklin</a></li>
+                <li><a href="index.html" id="active">Home</a></li>
+                <li><a href="franklin-8.html">Franklin</a></li>
                 <li><a href="#">Greenville</a></li>
                 <li><a href="#">Springfield</a></li>
                 <li><a href="stormcenter.html">Storm Center</a></li>
@@ -29,6 +35,15 @@
         </nav>
         <main>
 
+           <div id="container">
+                <section class="item" id="item1">
+                    <h1>Weather Story</h1>
+                    <p>text</p>
+                </section>
+               <section class="item" id="item2">
+               <img src="images/medium.jpg" alt="image">
+                </section>
+            </div>
         </main>
         <footer>
             <section class="contact">
@@ -43,5 +58,6 @@
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/currentdate.js"></script>
         <script src="scripts/windchill.js"></script>
+        <script src="scripts/weather.js"></script>
     </body>
 </html>

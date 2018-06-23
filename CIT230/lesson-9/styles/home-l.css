@@ -1,3 +1,16 @@
 @media only screen and (min-width: 1024px) {
 
+    main div#container{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+    }
+    section#item1{
+        grid-column: 1 / span 50%;
+    }
+    section#item2{
+        grid-column: 2 / span 2;
+    }
+    section.item{
+
+    }
 }
