@@ -1,0 +1,133 @@
+* { box-sizing: border-box; margin: 0 auto;}
+
+body {
+    font-size: 16px;
+    font-family: 'Cabin', sans-serif;
+    background: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), url(/dmyers6978.github.io/CIT230/lesson-5/images/background.JPG) no-repeat fixed;
+    background-size: cover;
+}
+
+header, nav, main, footer {
+    max-width: 1000px;
+}
+
+header {
+    background: rgba(128, 128, 128, .5);
+}
+
+table{
+    width: 100%;
+}
+
+header .subheading {
+    font-size: 1.0rem;
+}
+
+table h1 {
+    text-align: left;
+}
+table td#image {
+    width: 12.5%;
+}
+
+#heading{
+    vertical-align: text-bottom;
+}
+
+#subheading{
+}
+nav {
+    background: rgba(29, 151, 14, .4);
+    min-height: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: flex-start;
+}
+nav button {
+    font-size: 1.5rem;
+    background:none;
+    border:none;
+    height: 35px;
+    width: 35px;
+}
+
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    width: 100px;
+    height:30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li.active a {}
+nav ul li:hover {
+    background-color: rgb(29, 151, 14)
+}
+
+.topnav li{
+    display: none;
+}
+
+.responsive li {
+    margin: 5px 0 0 0;
+    display: flex;
+    text-align: center;
+}
+
+nav a.icon {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+.contact {
+    background: rgba(135, 168, 97, .6);
+    padding: 20px 0 20px 0;
+}
+
+.footer-bar {
+    background: rgb(135, 168, 97);
+    padding: 5px 0 5px 0;
+}
+
+main div#container{
+    margin-top:50px;
+    display: grid;
+    justify-content: center;
+    align-content: space-between;
+}
+
+section.item{
+    margin: 50px auto 5px auto;
+}
+
+div.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 50px;
+}
+
+a#franklin_link{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+a#greenville_link{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+a#springfield_link{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}

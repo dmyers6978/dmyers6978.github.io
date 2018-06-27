@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franklin</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main-8.css">
+    <link rel="stylesheet" href="styles/medium-8.css">
+    <link rel="stylesheet" href="styles/large-8.css">
+    </head>
+    <body>
+        <header>
+        <img src="/dmyers6978.github.io/CIT230/lesson-4/images/logo.png" alt="logo">
+        <h1>Mountain Weather</h1>
+        <h1 class="subheading">Keeping your adventure safe</h1>
+        </header>
+        <nav>
+            <button class="icon" onclick="myFunction()">&#9776;</button>
+            <ul class="topnav" id="topnav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="franklin.html">Franklin</a></li>
+                <li><a href="greenville.html" id="active">Greenville</a></li>
+                <li><a href="springfield.html">Springfield</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Greenville</h2>
+            <figure id="trees">
+                <img src="/dmyers6978.github.io/CIT230/lesson-6/images/large.jpg"
+                     srcset="/dmyers6978.github.io/CIT230/lesson-6/images/small.jpg 400w,
+                     /dmyers6978.github.io/CIT230/lesson-6/images/medium.jpg 600w,
+                     /dmyers6978.github.io/CIT230/lesson-6/images/large.jpg 1000w" alt="image">
+            </figure>
+            <h3>Current Weather</h3>
+            <section class="weather-summary">
+                <div class="highlow">
+                    <p>High: 95&deg;</p>
+                    <p>Low: -45&deg;</p>
+                </div>
+                <div class="current">
+                    <p id="current">Sunny</p>
+                    <p><span id="temp"></span>&deg; F</p>
+                    <img src="images/sunny.jpg" alt="sunny" id="sunny">
+                </div>
+                <div class="conditions">
+                    <p>Precipitation: 95%</p>
+                    <p>Windspeed: <span id="speed"></span> mph</p>
+                    <p>Windchill: <span id="windchill">0</span>&deg; F</p>
+                </div>
+            </section>
+            <section class="forecast">
+                <h3>Ten Day Forecast</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day 1</th>
+                            <th>Day 2</th>
+                            <th>Day 3</th>
+                            <th>Day 4</th>
+                            <th>Day 5</th>
+                            <th>Day 6</th>
+                            <th>Day 7</th>
+                            <th>Day 8</th>
+                            <th>Day 9</th>
+                            <th>Day 10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>89&deg;F</td>
+                            <td>87&deg;F</td>
+                            <td>78&deg;F</td>
+                            <td>75&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>79&deg;F</td>
+                            <td>83&deg;F</td>
+                            <td>85&deg;F</td>
+                            <td>89&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <h3>City Happenings</h3>
+            <article id="town_article">
+            </article>
+        </main>
+        <footer>
+            <section class="contact">
+                <p>Contact information placeholder</p>
+                <p>999.999.9999</p>
+                <p>123 Main St. Anytown, US 99999</p>
+                <p>Google Map</p>
+            </section>
+            <section class="footer-bar">&copy; 2018 | All Rights Reserved | Mountain Weather | <span id="currentdate"></span>
+            </section>
+        </footer>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/windchill.js"></script>
+        <script src="scripts/greenville.js"></script>
+    </body>
+</html>

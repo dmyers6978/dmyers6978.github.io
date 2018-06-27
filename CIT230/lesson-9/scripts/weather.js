@@ -16,6 +16,7 @@ function showTown(jsonObj) {
         if(i == 2){
             continue;
         }
+        var myLink = document.createElement('a');
         var mySection = document.createElement('section');
         var myH2 = document.createElement('h2');
         var myPara1 = document.createElement('p');
@@ -24,12 +25,27 @@ function showTown(jsonObj) {
         var myPara4 = document.createElement('p');
         var picture = document.createElement('img');
 
+
         mySection.className = 'item';
 
         myH2.textContent = towns[i].name;
         myH2.setAttribute("id", towns[i].name)
         myPara1.textContent = towns[i].motto;
         myPara2.textContent = 'Population ' + towns[i].currentPopulation;
+
+
+        if(myH2.innerHTML == "Franklin"){
+            myLink.setAttribute("href", "franklin-8.html")
+            myLink.setAttribute("id", "franklin_link")
+        }
+        else if(myH2.innerHTML == "Greenville"){
+            myLink.setAttribute("href", "#")
+            myLink.setAttribute("id", "greenville_link")
+        }
+        else if(myH2.innerHTML == "Springfield"){
+            myLink.setAttribute("href", "#")
+            myLink.setAttribute("id", "springfield_link")
+        }
 
         if (myH2.innerHTML == "Franklin"){
             picture.setAttribute("src", "images/small.jpg");
@@ -51,46 +67,9 @@ function showTown(jsonObj) {
         mySection.appendChild(myPara4);
         mySection.appendChild(picture);
 
-        container.appendChild(mySection);
-    }
+        myLink.appendChild(mySection);
 
-//    if (document.getElementById("Franklin").innerHTML == 'Franklin'){
-//    var weatherObject = new XMLHttpRequest();
-//    weatherObject.open('GET', 'http://api.openweathermap.org/data/2.5/weather?zip=55333,us&appid=7a2dada82654af61dc86f112a58d93e1&units=imperial', true);
-//    weatherObject.send();
-//    weatherObject.onload = function () {
-//        var weatherInfo = JSON.parse(weatherObject.responseText);
-//        console.log(weatherInfo);
-//
-//    myPara3.textContent = 'Current Temp: ' + weatherInfo.main.temp;
-//    myPara4.textContent = 'Current Wind Speed: ' + weatherInfo.wind.speed;
-//
-//    }
-//    }
-//   if (myH2.innerHTML == "Greenville"){
-//        var weatherObject = new XMLHttpRequest();
-//        weatherObject.open('GET', 'http://api.openweathermap.org/data/2.5/weather?zip=24601,us&appid=7a2dada82654af61dc86f112a58d93e1&units=imperial', true);
-//        weatherObject.send();
-//        weatherObject.onload = function () {
-//            var weatherInfo = JSON.parse(weatherObject.responseText);
-//            console.log(weatherInfo);
-//
-//            myPara3.textContent = 'Current Temp: ' + weatherInfo.main.temp;
-//            myPara4.textContent = 'Current Wind Speed: ' + weatherInfo.wind.speed;
-//
-//        }
-//    }
-//    if(myH2.innerHTML == "Springfield"){
-//        var weatherObject = new XMLHttpRequest();
-//        weatherObject.open('GET', 'http://api.openweathermap.org/data/2.5/weather?zip=97403,us&appid=7a2dada82654af61dc86f112a58d93e1&units=imperial', true);
-//        weatherObject.send();
-//        weatherObject.onload = function () {
-//            var weatherInfo = JSON.parse(weatherObject.responseText);
-//            console.log(weatherInfo);
-//
-//            myPara3.textContent = 'Current Temp: ' + weatherInfo.main.temp;
-//            myPara4.textContent = 'Current Wind Speed: ' + weatherInfo.wind.speed;
-//
-//        }
-//    }
+        container.appendChild(myLink);
+
+    }
 }

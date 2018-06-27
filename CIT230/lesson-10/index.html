@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Franklin</title>
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/home-s.css">
+        <link rel="stylesheet" href="styles/home-m.css">
+        <link rel="stylesheet" href="styles/home-l.css">
+    </head>
+    <body>
+        <header>
+           <table>
+               <tr>
+                   <td id="image" rowspan="2"><img src="/dmyers6978.github.io/CIT230/lesson-4/images/logo.png" alt="logo"></td>
+                   <td id="heading"><h1 colspan="2">Mountain Weather</h1></td>
+               </tr>
+               <tr>
+                   <td id="subheading"><h1 class="subheading" colspan="2">Keeping your adventure safe</h1></td>
+               </tr>
+           </table>
+        </header>
+        <nav>
+            <button class="icon" onclick="myFunction()">&#9776;</button>
+            <ul class="topnav" id="topnav">
+                <li><a href="index.html" id="active">Home</a></li>
+                <li><a href="franklin.html">Franklin</a></li>
+                <li><a href="greenville.html">Greenville</a></li>
+                <li><a href="springfield.html">Springfield</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+
+           <div id="container">
+                <section class="item" id="item1">
+                    <h1>Weather Story</h1>
+                    <p>text</p>
+                </section>
+               <section class="item" id="item2">
+               <img src="images/medium.jpg" alt="image">
+                </section>
+            </div>
+        </main>
+        <footer>
+            <section class="contact">
+                <p>Contact information placeholder</p>
+                <p>999.999.9999</p>
+                <p>123 Main St. Anytown, US 99999</p>
+                <p>Google Map</p>
+            </section>
+            <section class="footer-bar">&copy; 2018 | All Rights Reserved | Mountain Weather | <span id="currentdate"></span>
+            </section>
+        </footer>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/windchill.js"></script>
+        <script src="scripts/weather.js"></script>
+    </body>
+</html>

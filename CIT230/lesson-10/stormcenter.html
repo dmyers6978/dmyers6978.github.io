@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Storm Center</title>
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/stormcenter-s.css">
+        <link rel="stylesheet" href="styles/stormcenter-m.css">
+        <link rel="stylesheet" href="styles/stormcenter-l.css">
+    </head>
+    <body>
+        <header>
+            <img src="/dmyers6978.github.io/CIT230/lesson-4/images/logo.png" alt="logo">
+            <h1>Mountain Weather</h1>
+            <h1 class="subheading">Keeping your adventure safe</h1>
+        </header>
+        <nav>
+            <button class="icon" onclick="myFunction()">&#9776;</button>
+            <ul class="topnav" id="topnav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="franklin.html">Franklin</a></li>
+                <li><a href="greenville.html">Greenville</a></li>
+                <li><a href="springfield.html">Springfield</a></li>
+                <li><a href="stormcenter.html" id="active">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Report the weather in your area</h1>
+            <form action="thanks.html" method="get">
+               <div>
+                   <label for="fullName">Full Name: </label>
+                   <input type="text" id="fullName" name="fullName" required pattern="[A-Za-z- ]{5,}" title="minimum of 5 characters" autofocus>
+               </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="name@domain.com">
+                </div>
+                <div>
+                    <label for="phone">Phone Number: </label>
+                    <input type="tel" id="phone" name="phone"  required>
+                </div>
+                <div>
+                    <label for="zip">Zip Code: </label>
+                    <input type="text" id="zip" name="zip" required pattern="[0-9]{5,5}">
+                </div>
+                <div>
+                    <label for="date">Storm Date: </label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <div>
+                    <label for="type">Storm Type: </label>
+                    <input list="typelist" id="type" name="type">
+                    <datalist id="typelist">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist>
+                </div>
+                <div>
+                    <label for="severity">Storm Severity: </label>
+                    <span id="rating">5</span>
+                    <input type="range" id="severity" value="5" min="1" max="10" step="1" name="severity" oninput="rating(this.value)" onchange="rating(this.value)">
+                </div>
+                <div>
+                    <label for="region">Storm Region: </label>
+                    <select name="region" id="region">
+                        <option value="0">Select a Region</option>
+                        <option value="1">Franklin</option>
+                        <option value="2">Greenville</option>
+                        <option value="3">Springfield</option>
+                    </select>
+                </div>
+                <div>
+                   <span id="danger">Are you in danger?</span>
+                    <label for="yes">Yes </label>
+                    <input type="radio" id="yes" name="danger" value="Yes">
+                    <label for="maybe">Maybe </label>
+                    <input type="radio" id="maybe" name="danger" value="Maybe">
+                    <label for="no">No </label>
+                    <input type="radio" id="no" name="danger" value="No">
+                </div>
+                <div id="textarea">
+                    <label for="comments" id="label">Additional Comments: </label>
+                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                <input type="submit" id="submit">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <section class="contact">
+                <p>Contact information placeholder</p>
+                <p>999.999.9999</p>
+                <p>123 Main St. Anytown, US 99999</p>
+                <p>Google Map</p>
+            </section>
+            <section class="footer-bar">&copy; 2018 | All Rights Reserved | Mountain Weather | <span id="currentdate"></span>
+            </section>
+        </footer>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/slider.js"></script>
+    </body>
+</html>

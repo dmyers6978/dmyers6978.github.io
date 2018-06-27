@@ -113,3 +113,21 @@ div.images{
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 50px;
 }
+
+a#franklin_link{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+a#greenville_link{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+a#springfield_link{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
