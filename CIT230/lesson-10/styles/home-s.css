@@ -98,7 +98,6 @@ footer {
 }
 
 main div#container{
-    margin-top:50px;
     display: grid;
     justify-content: center;
     align-content: space-between;
@@ -134,4 +133,9 @@ a#springfield_link{
 
 div#container a:hover{
     box-shadow: 10px 10px 30px gray;
+}
+
+.active{
+    background-color: green;
+    width:100%;
 }

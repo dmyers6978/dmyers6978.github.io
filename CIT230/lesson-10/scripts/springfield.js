@@ -7,6 +7,8 @@ weatherObject.onload = function () {
 
     document.getElementById('temp').innerHTML = weatherInfo.main.temp;
     document.getElementById('speed').innerHTML = weatherInfo.wind.speed;
+    document.getElementById('high').innerHTML = weatherInfo.main.temp_max;
+    document.getElementById('low').innerHTML = weatherInfo.main.temp_min;
 
 }
 
@@ -26,3 +28,8 @@ article.onload = function () {
         container.appendChild(myPara);
     }
 }
+
+var t = weatherInfo.main.temp;
+var s = weatherInfo.wind.speed;
+var windchill = Math.round(35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s, 0.16));
+document.getElementById("windchill").innerHTML = windchill;

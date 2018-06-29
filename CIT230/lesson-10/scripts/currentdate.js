@@ -1,4 +1,5 @@
-    var currentDate = new Date();
+function setCurrentDate(){
+var currentDate = new Date();
     var weekday = new Array(7);
     weekday[0] = "Sunday";
     weekday[1] = "Monday";
@@ -33,3 +34,4 @@
     var currentdatestring = currentDay + ", " + toDate + " " + x + " " + year;
 
     document.getElementById("currentdate").innerHTML = currentdatestring;
+}

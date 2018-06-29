@@ -7,6 +7,8 @@ weatherObject.onload = function () {
 
     document.getElementById('temp').innerHTML = weatherInfo.main.temp;
     document.getElementById('speed').innerHTML = weatherInfo.wind.speed;
+    document.getElementById('high').innerHTML = weatherInfo.main.temp_max;
+    document.getElementById('low').innerHTML = weatherInfo.main.temp_min;
 
 }
 

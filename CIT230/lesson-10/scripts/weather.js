@@ -48,15 +48,15 @@ function showTown(jsonObj) {
         }
 
         if (myH2.innerHTML == "Franklin"){
-            picture.setAttribute("src", "images/small.jpg");
+            picture.setAttribute("src", "images/23-1.JPG");
             picture.setAttribute("alt", "Franklin");
         }
         else if(myH2.innerHTML == "Greenville"){
-            picture.setAttribute("src", "images/small.jpg");
+            picture.setAttribute("src", "images/116.JPG");
             picture.setAttribute("alt", "Greenville");
         }
         else if(myH2.innerHTML == "Springfield"){
-            picture.setAttribute("src", "images/small.jpg");
+            picture.setAttribute("src", "images/89.JPG");
             picture.setAttribute("alt", "Springfield");
         }
 

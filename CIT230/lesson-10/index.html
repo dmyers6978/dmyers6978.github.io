@@ -11,27 +11,9 @@
         <link rel="stylesheet" href="styles/home-l.css">
     </head>
     <body>
-        <header>
-           <table>
-               <tr>
-                   <td id="image" rowspan="2"><a href="index.html"><img src="/dmyers6978.github.io/CIT230/lesson-4/images/logo.png" alt="logo"></a></td>
-                   <td id="heading"><h1 colspan="2">Mountain Weather</h1></td>
-               </tr>
-               <tr>
-                   <td id="subheading"><h1 class="subheading" colspan="2">Keeping your adventure safe</h1></td>
-               </tr>
-           </table>
+        <header w3-include-html="header.html">
         </header>
-        <nav>
-            <button class="icon" onclick="myFunction()">&#9776;</button>
-            <ul class="topnav" id="topnav">
-                <li><a href="index.html" id="active">Home</a></li>
-                <li><a href="franklin.html">Franklin</a></li>
-                <li><a href="greenville.html">Greenville</a></li>
-                <li><a href="springfield.html">Springfield</a></li>
-                <li><a href="stormcenter.html">Storm Center</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
+        <nav w3-include-html="nav.html">
         </nav>
         <main>
           <a href="index.html">Home</a>
@@ -41,23 +23,18 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id diam id nulla luctus euismod sed quis nunc. Cras at.</p>
                 </section>
                <section class="item" id="item2">
-               <img src="images/medium.jpg" alt="image">
+               <img src="images/143.JPG" alt="image">
                 </section>
             </div>
         </main>
-        <footer>
-            <section class="contact">
-                <p>Contact information placeholder</p>
-                <p>999.999.9999</p>
-                <p>123 Main St. Anytown, US 99999</p>
-                <p>Google Map</p>
-            </section>
-            <section class="footer-bar">&copy; 2018 | All Rights Reserved | Mountain Weather | <span id="currentdate"></span>
-            </section>
+        <footer w3-include-html="footer.html">
         </footer>
+        <script src="scripts/w3.js"></script>
+        <script src="scripts/wayfinding.js"></script>
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/currentdate.js"></script>
         <script src="scripts/windchill.js"></script>
         <script src="scripts/weather.js"></script>
+        <script src="scripts/modularize.js"></script>
     </body>
 </html>

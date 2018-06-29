@@ -11,21 +11,9 @@
         <link rel="stylesheet" href="styles/stormcenter-l.css">
     </head>
     <body>
-        <header>
-            <a href="index.html"><img src="/dmyers6978.github.io/CIT230/lesson-4/images/logo.png" alt="logo"></a>
-            <h1>Mountain Weather</h1>
-            <h1 class="subheading">Keeping your adventure safe</h1>
+        <header w3-include-html="header.html">
         </header>
-        <nav>
-            <button class="icon" onclick="myFunction()">&#9776;</button>
-            <ul class="topnav" id="topnav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="franklin.html">Franklin</a></li>
-                <li><a href="greenville.html">Greenville</a></li>
-                <li><a href="springfield.html">Springfield</a></li>
-                <li><a href="stormcenter.html" id="active">Storm Center</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
+        <nav w3-include-html="nav.html">
         </nav>
         <main>
             <h1>Report the weather in your area</h1>
@@ -93,18 +81,12 @@
                 </div>
             </form>
         </main>
-        <footer>
-            <section class="contact">
-                <p>Contact information placeholder</p>
-                <p>999.999.9999</p>
-                <p>123 Main St. Anytown, US 99999</p>
-                <p>Google Map</p>
-            </section>
-            <section class="footer-bar">&copy; 2018 | All Rights Reserved | Mountain Weather | <span id="currentdate"></span>
-            </section>
+        <footer w3-include-html="footer.html">
         </footer>
+        <script src="scripts/w3.js"></script>
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/currentdate.js"></script>
         <script src="scripts/slider.js"></script>
+        <script src="scripts/modularize.js"></script>
     </body>
 </html>
