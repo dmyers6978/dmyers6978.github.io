@@ -1,16 +1,17 @@
-function setActiveLink(){
-// Get the container element
-var btnContainer = document.getElementById("topnav");
+function setActiveLink() {
+var urlString, urlArray, pageHREF, menu, i, currentURL;
+urlString = document.location.href;
+urlArray = urlString.split('/');
+pageHREF = urlArray[urlArray.length - 1];
 
-// Get all buttons with class="btn" inside the container
-var btns = btnContainer.getElementsByClassName("link");
-
-// Loop through the buttons and add the active class to the current/clicked button
-for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className = "active";
-    });
+if (pageHREF !== "") {
+    menu = document.querySelectorAll('ul#topnav li a');
+    for (i = 0; i < menu.length; i++) {
+        currentURL = (menu[i].getAttribute('href'));
+        menu[i].parentNode.className = '';
+        if (currentURL === pageHREF) {
+            menu[i].parentNode.className = 'active';
+        }
+    }
 }
 }
