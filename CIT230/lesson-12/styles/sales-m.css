@@ -1,0 +1,29 @@
+@media only screen and (min-width: 600px) {
+
+    body, main, nav{
+        max-width: 800px;
+    }
+
+    button.icon{
+        display: none;
+    }
+
+    #topnav{
+        width: 800px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        background-color: black;
+    }
+
+    #topnav li{
+        height: 20px;
+        width: 120px;
+        text-align: center;
+    }
+
+    #topnav li a{
+        text-decoration: none;
+        color: white;
+        height: 20px;
+    }
+}

@@ -1,0 +1,6 @@
+@media only screen and (min-width: 1000px) {
+
+    body, main, nav{
+        max-width: 1000px;
+    }
+}
