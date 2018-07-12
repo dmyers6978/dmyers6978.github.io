@@ -3,4 +3,14 @@
     body, main, nav{
         max-width: 1000px;
     }
+
+    iframe{
+        width: 500px;
+        height: 500px;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

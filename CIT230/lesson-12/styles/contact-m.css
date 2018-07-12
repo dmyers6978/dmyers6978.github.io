@@ -26,4 +26,9 @@
         color: white;
         height: 20px;
     }
+
+    iframe{
+        width: 400px;
+        height: 400px;
+    }
 }

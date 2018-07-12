@@ -26,4 +26,12 @@
         color: white;
         height: 20px;
     }
+
+    table{
+        max-width: 600px;
+    }
+
+    td.t2{
+        width: 300px;
+    }
 }

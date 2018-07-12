@@ -63,4 +63,21 @@ button.icon{
 footer{
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 10px
 }
+
+iframe{
+    width: 250px;
+    height: 250px;
+    margin: 10px 0 10px 0;
+}
+
+main{
+    margin: 0 auto;
+    text-align: center;
+}
+
+main section{
+    margin: 10px 0 10px 0;
+}
+

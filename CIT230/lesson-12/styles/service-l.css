@@ -3,4 +3,16 @@
     body, main, nav{
         max-width: 1000px;
     }
+
+    table{
+        max-width: 800px;
+    }
+
+    td.t1{
+        width: 200px;
+    }
+
+    td.t2{
+        width: 400px;
+    }
 }
