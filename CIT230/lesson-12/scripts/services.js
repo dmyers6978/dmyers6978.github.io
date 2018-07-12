@@ -20,7 +20,7 @@ function showServices(jsonObj) {
         var td3 = document.createElement('td');
         var td4 = document.createElement('td');
 
-        row.className = services[i].class;
+        row.className = "";
         td1.className = "t1";
         td2.className = "t2";
         td3.className = "t3";
