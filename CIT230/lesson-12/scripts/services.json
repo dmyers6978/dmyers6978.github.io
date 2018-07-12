@@ -1,21 +1,21 @@
 {
     "services" : [
         {
-            "class": "t1",
+            "class": "r2",
             "service": "Cassette Replacement",
             "description": "New Cassette, rim inspection, Derailleur adjustment",
             "price": "$10 + Parts",
             "time": "30 minutes"
         },
         {
-            "class": "t2",
+            "class": "r3",
             "service": "Derailleur Adjustment",
             "description": "Adjustment of the front and rear derailleurs to make shifting smooth",
             "price": "$10",
             "time": "10 minutes"
         },
         {
-            "class": "t3",
+            "class": "r4",
             "service": "Crank replacement",
             "description": "Replacement of cranks and chainrings, front derailleur adjustment, bottom bracket inspection",
             "price": "$20 + Parts",
