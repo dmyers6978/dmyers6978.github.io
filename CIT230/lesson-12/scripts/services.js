@@ -5,8 +5,8 @@ request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
 request.onload = function () {
-    var townInfo = request.response;
-    showTown(townInfo);
+    var serviceInfo = request.response;
+    showServices(serviceInfo);
 }
 
 function showServices(jsonObj) {
@@ -20,11 +20,11 @@ function showServices(jsonObj) {
         var td3 = document.createElement('td');
         var td4 = document.createElement('td');
 
-        row.className = "r1";
-        td1.classname = "t1";
-        td2.classname = "t2";
-        td3.classname = "t3";
-        td4.classname = "t4";
+        row.setAttribute = ("class", "r1");
+        td1.setAttribute = ("class", services[i].class);
+        td2.setAttribute = ("class", services[i].class);
+        td3.setAttribute = ("class", services[i].class);
+        td4.setAttribute = ("class", services[i].class);
 
         td1.textContent = services[i].service;
         td2.textContent = services[i].description;
