@@ -64,3 +64,51 @@ footer{
     margin: 0 auto;
     text-align: center;
 }
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#info{
+    width: 300px;
+}
+
+form{
+    width: 300px;
+    background-color: rgb(50 50 60)
+}
+
+section#form button{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(100 0 0);
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+}
+
+section#form button:hover{
+    background: linear-gradient(rgb(100 0 0), rgb(50 0 0), rgb(100 0 0));
+    border: none;
+}
+
+#label{
+    align-content: flex-start;
+    text-align: left;
+}
+
+#textarea{
+    display: flex;
+}
+
+form div{
+    padding: 10px;
+}
+
+#submit{
+    background-color: rgb(100 0 0);
+    color: white;
+    width: 100px;
+    height: 30px;
+}

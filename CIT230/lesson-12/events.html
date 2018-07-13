@@ -13,11 +13,105 @@
     <body>
         <header w3-include-html="header.html"></header>
         <nav w3-include-html="nav.html"></nav>
+        <main>
+           <section id="info">
+            <h1>Upcoming Events:</h1>
+            <h2>Cycle the Continental Divide</h2>
+            <p>Cost: $20</p>
+            <p>Date: 22 September 2018</p>
+            <p>Total Mileage: 134.25</p>
+            <p>Location: Glacier NP section</p>
+            <p>Requirements: Since the trail is fairly technical, we will be hosting a class on the 15th of September 2018 for everyone. Attendance is mandatory. Riders must bring safety gear and a bike capable of the terrain. Must register prior to attendance.</p>
+            </section>
+            <section id="form">
+            <button id="register">Register</button>
+                <form action="submit.html" method="get">
+                    <div>
+                        <label for="fullName">Full Name: </label>
+                        <input type="text" id="fullName" name="fullName" required autofocus>
+                    </div>
+                    <div>
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" placeholder="name@domain.com" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div>
+                        <label for="birthday">Date of birth:</label>
+                        <input type="date" id="birthday" name="birthday" required>
+                    </div>
+                    <div>
+                        <label for="state">Home State</label>
+                        <input list="typelist" id="state" name="state">
+                        <datalist id="typelist">
+                            <option value="Alabama"></option>
+                            <option value="Alaska"></option>
+                            <option value="Arizona"></option>
+                            <option value="Arkansas"></option>
+                            <option value="California"></option>
+                            <option value="Colorado"></option>
+                            <option value="Connecticut"></option>
+                            <option value="Delaware"></option>
+                            <option value="Florida"></option>
+                            <option value="Georgia"></option><option value="Hawaii"></option>
+                            <option value="Idaho"></option>
+                            <option value="Illinois"></option>
+                            <option value="Indiana"></option>
+                            <option value="Iowa"></option>
+                            <option value="Kansas"></option>
+                            <option value="Kentucky"></option>
+                            <option value="Louisiana"></option>
+                            <option value="Maine"></option>
+                            <option value="Maryland"></option>
+                            <option value="Massachusetts"></option>
+                            <option value="Michigan"></option>
+                            <option value="Minnesota"></option>
+                            <option value="Mississippi"></option>
+                            <option value="Missouri"></option>
+                            <option value="Montana"></option>
+                            <option value="Nebraska"></option>
+                            <option value="Nevada"></option>
+                            <option value="New Hampshire"></option>
+                            <option value="New Jersey"></option>
+                            <option value="New Mexico"></option>
+                            <option value="New York"></option>
+                            <option value="North Carolina"></option>
+                            <option value="North Dakota"></option>
+                            <option value="Ohio"></option>
+                            <option value="Oklahoma"></option>
+                            <option value="Oregon"></option>
+                            <option value="Pennsylvania"></option>
+                            <option value="Rhode Island"></option>
+                            <option value="South Carolina"></option>
+                            <option value="South Dakota"></option>
+                            <option value="Tennessee"></option>
+                            <option value="Texas"></option>
+                            <option value="Utah"></option>
+                            <option value="Vermont"></option>
+                            <option value="Virginia"></option>
+                            <option value="Washington"></option>
+                            <option value="West Virginia"></option>
+                            <option value="Wisconsin"></option>
+                            <option value="Wyoming"></option>
+                        </datalist>
+                    </div>
+                    <div id="textarea">
+                        <label for="comments">Comments/Accomodations: </label>
+                        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                    </div>
+                    <input type="submit" id="submit">
+                </form>
+            </section>
+        </main>
         <footer w3-include-html="footer.html"></footer>
         <script src="scripts/w3.js"></script>
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/modularize.js"></script>
         <script src="scripts/wayfinding.js"></script>
         <script src="scripts/currentdate.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="scripts/events.js"></script>
     </body>
 </html>
