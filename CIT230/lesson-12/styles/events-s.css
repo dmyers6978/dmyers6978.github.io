@@ -61,12 +61,13 @@ button.icon{
 }
 
 footer{
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
     text-align: center;
 }
 main{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 section#info{
@@ -117,3 +118,4 @@ form div{
 #submit:hover{
     background: linear-gradient(rgb(100 0 0), rgb(50 0 0), rgb(100 0 0));
 }
+
