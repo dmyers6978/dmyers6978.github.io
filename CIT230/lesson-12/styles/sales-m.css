@@ -26,4 +26,12 @@
         color: white;
         height: 20px;
     }
+
+    section.description section ul, section.description section p{
+        text-align: left;
+    }
+
+    section.description section{
+        width: 400px;
+    }
 }

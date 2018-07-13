@@ -12,7 +12,7 @@ request.onload = function () {
 function showServices(jsonObj) {
     var services = jsonObj['services'];
 
-    for (var i = 0; i < 4; i++) {
+    for (var i = 0; i < services.length; i++) {
 
         var row = document.createElement('tr');
         var td1 = document.createElement('td');
@@ -20,7 +20,15 @@ function showServices(jsonObj) {
         var td3 = document.createElement('td');
         var td4 = document.createElement('td');
 
-        row.className = "";
+        if(i == 0){
+            row.className = "r2"
+        }
+        else if(i == 1){
+            row.className = "r3"
+        }
+        else if(i == 2){
+            row.className = "r4"
+        }
         td1.className = "t1";
         td2.className = "t2";
         td3.className = "t3";

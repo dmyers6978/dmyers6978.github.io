@@ -3,4 +3,8 @@
     body, main, nav{
         max-width: 1000px;
     }
+
+    section.description section{
+        width: 500px;
+    }
 }
