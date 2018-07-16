@@ -33,7 +33,7 @@ button.icon{
     display: flex;
     position: absolute;
     right: 0;
-    color: rgb(100 0 0);
+    color: rgb(100, 0, 0);
     background: none;
     margin: 10px 10px 0 10px;
     border: none;
@@ -75,35 +75,35 @@ table{
 td.t1{
     width:100px;
     padding: 5px;
-    border: 2px solid rgb(50 50 50);
+    border: 2px solid rgb(50, 50, 50);
     text-align:center;
 }
 
 td.t2{
     width: 100px;
     padding: 5px;
-    border: 2px solid rgb(50 50 50);
+    border: 2px solid rgb(50, 50, 50);
     text-align:center;
 }
 
 td.t3{
     width: 100px;
     padding: 5px;
-    border: 2px solid rgb(50 50 50);
+    border: 2px solid rgb(50, 50, 50);
     text-align:center;
 }
 
 td.t4{
     width: 100px;
     padding: 5px;
-    border: 2px solid rgb(50 50 50);
+    border: 2px solid rgb(50, 50, 50);
     text-align:center;
 }
 
 tr.r1{
-    background-color: rgb(100 0 0);
+    background-color: rgb(100, 0, 0);
 }
 
 tr.r3{
-    background-color: rgb(50 50 50);
+    background-color: rgb(50, 50, 50);
 }

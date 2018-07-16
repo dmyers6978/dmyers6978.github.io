@@ -33,7 +33,7 @@ button.icon{
     display: flex;
     position: absolute;
     right: 0;
-    color: rgb(100 0 0);
+    color: rgb(100, 0, 0);
     background: none;
     margin: 10px 10px 0 10px;
     border: none;
