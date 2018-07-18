@@ -115,10 +115,6 @@ form div{
     border: none;
 }
 
-#submit:hover{
-    background: linear-gradient(rgb(100, 0, 0), rgb(50, 0, 0), rgb(100, 0, 0));
-}
-
 hr{
     border: 0;
     height: 1px;
