@@ -131,21 +131,24 @@ hr{
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 
-button#register{
-    width: 300px;
+p#register{
+    padding-top: 10px;
     height: 50px;
+    width: 300px;
     background-color: rgb(100 0 0);
     font-size: 1.5rem;
     cursor: pointer;
-    margin: 20px 0 0 0;
+    margin: 20px auto 0 auto;
     border: none;
+    color: white;
+    text-decoration: none;
 }
 
-button#register a{
+p#register a{
     text-decoration: none;
     color: white;
 }
 
-button#register:hover{
+p#register:hover{
     background: linear-gradient(rgb(100 0 0), rgb(50 0 0), rgb(100 0 0));
 }
