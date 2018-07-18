@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
 
     body, main, nav{
         max-width: 800px;
@@ -25,5 +25,56 @@
         text-decoration: none;
         color: white;
         height: 20px;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 50px auto 0 auto;
+    }
+
+    section.text{
+        width: 100%;
+        text-align: center;
+    }
+
+    main a{
+        width: 100%
+    }
+
+    main a img{
+        width: 100%;
+    }
+
+    a#img1{
+        order: 2;
+    }
+
+    a#img2{
+        order: 3;
+    }
+
+    a#img3{
+        order: 6;
+    }
+
+    a#img4{
+        order: 7;
+    }
+
+    section#t1{
+        order:1;
+    }
+
+    section#t2{
+        order: 4;
+    }
+
+    section#t3{
+        order: 5;
+    }
+
+    section#t4{
+        order: 8;
     }
 }

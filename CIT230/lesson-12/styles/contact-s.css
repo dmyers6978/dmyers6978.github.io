@@ -1,4 +1,4 @@
-* { box-sizing: border-box; margin: 0 auto; }
+* { box-sizing: border-box; margin: 0 auto; font-family: 'Raleway', sans-serif;}
 
 body{
     background-color: black;
@@ -81,3 +81,8 @@ main section{
     margin: 10px 0 10px 0;
 }
 
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}

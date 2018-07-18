@@ -1,4 +1,4 @@
-* { box-sizing: border-box; margin: 0 auto; }
+* { box-sizing: border-box; margin: 0 auto; font-family: 'Raleway', sans-serif;}
 
 body{
     background-color: black;
@@ -63,4 +63,55 @@ button.icon{
 footer{
     margin: 0 auto;
     text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 50px auto;
+}
+
+section.desc{
+    text-align: center;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+iframe.map{
+    width: 400px;
+    height: 400px;
+    width: 100%;
+}
+
+section#desc1{
+    order: 1;
+    background-color: rgb(80, 80, 100);
+}
+
+section#desc2{
+    order: 3;
+    background-color: rgb(100, 80, 80);
+}
+
+section#desc3{
+    order: 5;
+    background-color: rgb(80, 100, 80);
+}
+
+iframe#map1{
+    order: 2;
+}
+
+iframe#map2{
+    order: 4;
+}
+
+iframe#map3{
+    order: 6;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }

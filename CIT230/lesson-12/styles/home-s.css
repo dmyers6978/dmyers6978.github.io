@@ -1,4 +1,4 @@
-* { box-sizing: border-box; margin: 0 auto; }
+* { box-sizing: border-box; margin: 0 auto; font-family: 'Raleway', sans-serif;}
 
 body{
     background-color: black;
@@ -63,4 +63,85 @@ button.icon{
 footer{
     margin: 0 auto;
     text-align: center;
+    margin: 20px auto 10px auto;
+}
+
+main{
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 1fr;
+}
+
+section.text{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main a{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main a img{
+    width: 300px;
+    margin: 0 auto;
+}
+
+section#t1{
+    background-color: rgb(80, 80, 100);
+    order:1
+}
+
+section#t2{
+    background-color: rgb(100, 80, 80);
+    order: 3;
+}
+
+section#t3{
+    background-color: rgb(80, 100, 80);
+    order: 5;
+}
+
+section#t4{
+    background-color: rgb(100, 100, 40);
+    order: 7;
+}
+
+a#img1{
+    order: 2;
+}
+
+a#img2{
+    order: 4;
+}
+
+a#img3{
+    order: 6;
+}
+
+a#img4{
+    order: 8;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+button#register{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(100 0 0);
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+    border: none;
+}
+
+button#register:hover{
+    background: linear-gradient(rgb(100 0 0), rgb(50 0 0), rgb(100 0 0));
 }
