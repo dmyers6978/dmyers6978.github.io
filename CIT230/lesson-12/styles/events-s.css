@@ -116,7 +116,7 @@ form div{
 }
 
 #submit:hover{
-    background: linear-gradient(rgb(100, 0, 0) rgb(50, 0, 0), rgb(100, 0, 0));
+    background: linear-gradient(rgb(100, 0, 0) rgb(50, 0, 0) rgb(100, 0, 0));
 }
 
 hr{
