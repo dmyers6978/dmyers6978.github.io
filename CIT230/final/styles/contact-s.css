@@ -1,0 +1,92 @@
+* { box-sizing: border-box; margin: 0 auto; font-family: 'Raleway', sans-serif;}
+
+body{
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+}
+
+#subheading{
+    font-size: .75rem;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header h1, header #subheading{
+    text-align: center;
+    width: 100%;
+}
+
+nav{
+    min-height: 50px;
+}
+
+#topnav li{
+    list-style-type: none;
+}
+
+#topnav li:hover{
+    background-color: dimgray;
+}
+
+button.icon{
+    display: flex;
+    position: absolute;
+    right: 0;
+    color: rgb(100, 0, 0);
+    background: none;
+    margin: 10px 10px 0 10px;
+    border: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#topnav{
+    padding : 20px;
+    background-color: dimgray
+}
+
+#topnav li a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.responsive{
+    display: none;
+}
+
+.active{
+    background-color: dimgray;
+}
+
+footer{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px
+}
+
+iframe{
+    width: 250px;
+    height: 250px;
+    margin: 10px 0 10px 0;
+}
+
+main{
+    margin: 0 auto;
+    text-align: center;
+}
+
+main section{
+    margin: 10px 0 10px 0;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}

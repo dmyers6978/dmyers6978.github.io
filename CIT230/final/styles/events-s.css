@@ -21,6 +21,10 @@ header h1, header #subheading{
     width: 100%;
 }
 
+nav{
+    min-height: 50px;
+}
+
 #topnav li{
     list-style-type: none;
 }
@@ -61,54 +65,57 @@ button.icon{
 }
 
 footer{
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
     text-align: center;
 }
-
 main{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-section.desc{
-    text-align: center;
-    padding-bottom: 20px;
-    width: 100%;
+section#info{
+    width: 300px;
 }
 
-iframe.map{
-    width: 400px;
-    height: 400px;
-    width: 100%;
+form{
+    width: 300px;
+    background-color: rgb(50, 50, 60)
+}
+
+section#form button{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(100, 0, 0);
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 20px 0 0 0;
     border: none;
 }
 
-section#desc1{
-    order: 1;
-    background-color: rgb(80, 80, 100);
+section#form button:hover{
+    background: linear-gradient(rgb(100, 0, 0), rgb(50, 0, 0), rgb(100, 0, 0));
 }
 
-section#desc2{
-    order: 3;
-    background-color: rgb(100, 80, 80);
+#label{
+    align-content: flex-start;
+    text-align: left;
 }
 
-section#desc3{
-    order: 5;
-    background-color: rgb(80, 100, 80);
+#textarea{
+    display: flex;
 }
 
-iframe#map1{
-    order: 2;
+form div{
+    padding: 10px;
 }
 
-iframe#map2{
-    order: 4;
-}
-
-iframe#map3{
-    order: 6;
+#submit{
+    background-color: rgb(100, 0, 0);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
 }
 
 hr{

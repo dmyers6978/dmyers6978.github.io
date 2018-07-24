@@ -21,6 +21,11 @@ header h1, header #subheading{
     width: 100%;
 }
 
+nav{
+    min-height: 50px;
+}
+
+
 #topnav li{
     list-style-type: none;
 }
@@ -63,10 +68,6 @@ button.icon{
 footer{
     margin: 0 auto;
     text-align: center;
-}
-
-main{
-    margin-top: 50px;
 }
 
 h1.bike{
