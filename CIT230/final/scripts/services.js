@@ -1,5 +1,5 @@
 var table = document.querySelector('table');
-var requestURL = '//dmyers6978.github.io/CIT230/lesson-12/scripts/services.json';
+var requestURL = '//dmyers6978.github.io/CIT230/final/scripts/services.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
