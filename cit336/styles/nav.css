@@ -1,0 +1,17 @@
+ul#topnav{
+    display:block;
+    
+}
+
+ul#topnav li{
+    list-style-type: none;
+}
+
+ul#topnav li a{
+    color: black;
+    text-decoration: none;
+}
+
+ul#responsive{
+    display: none;
+}

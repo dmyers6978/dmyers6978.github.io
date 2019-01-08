@@ -1,0 +1,46 @@
+* {margin: 0; box-sizing: border-box;}
+
+body{
+    background-color: lightyellow;
+}
+
+header{
+    margin: 0 auto 40px auto;
+    width: 75%;
+    background: linear-gradient(to right, lightyellow, cadetblue, lightyellow);
+    padding: 15px;
+}
+
+main{
+    width: 100%;
+}
+
+main h1{
+    text-align: center;
+    margin: 0 auto;
+}
+
+main h2{
+    text-align: center;
+    margin: 0 auto;
+}
+
+main div{
+    text-align: center;
+}
+
+main div iframe{
+    margin: 0 auto;
+    height: 480px;
+    width: 854px;
+}
+
+main hr{
+    margin: 0 auto;
+    width: 75%;
+    background-image: linear-gradient(to right, white, black, white);
+    height: 1px;
+    border: none;
+    position: relative;
+    bottom: -35px;
+}
